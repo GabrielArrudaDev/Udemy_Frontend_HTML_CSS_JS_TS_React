@@ -1,0 +1,166 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  color: #ffffff;
+  background: linear-gradient(to right, #1f1f1f, #3b3b3b);
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+.header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-title {
+  font-size: 4rem;
+  color: #f0f0f0;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Impact", "Arial Black", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8),
+    0px 0px 20px rgba(243, 156, 18, 0.8);
+  background: linear-gradient(to right, #f39c12, #f1c40f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.main-paragraph {
+  font-size: 1.2rem;
+  color: #d0d0d0;
+}
+
+/* Imagem de destaque */
+.featured-image img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 10px;
+  color: #a0a0a0;
+}
+
+/* Biografia */
+.biography-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.biography-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.biography-container p {
+  margin-bottom: 20px;
+  color: #c0c0c0;
+}
+
+.bold {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+/* Citações */
+.quotes-container {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #3b3b3b;
+  border-left: 5px solid #f39c12;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+blockquote {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #f0f0f0;
+}
+
+blockquote + p {
+  margin-top: 10px;
+  text-align: right;
+  color: #a0a0a0;
+}
+
+/* Curiosidades */
+.curiosities-container {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.curiosities-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.curiosities-container ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #c0c0c0;
+}
+
+.curiosities-container li {
+  margin-bottom: 10px;
+}
+
+/* Segunda imagem */
+.img-bold img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Mais informações */
+.moreinfo-container {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+.moreinfo-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.moreinfo-container a {
+  color: #f39c12;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.moreinfo-container a:hover {
+  text-decoration: underline;
+}
