@@ -1,0 +1,19 @@
+body {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+div input,
+div label {
+  display: block;
+}
+
+.radio input,
+.radio label,
+.radio span {
+  display: inline-block;
+}
