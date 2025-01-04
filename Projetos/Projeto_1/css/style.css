@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #f0ebf8;
+}
+
+.title {
+  color: #333;
+  font-size: 25px;
+}
+
+p,
+label {
+  color: #444;
+}
+
+.gear {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0 5px 0px;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='date'],
+input[type='file'],
+textarea {
+  width: 95%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* page header */
+
+.header {
+  height: 160px;
+  padding: 20px;
+  background-color: #673ab7;
+}
+
+#title_header {
+  color: #fff;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  text-shadow: 1px 1px 10px #070707;
+}
+
+/* form container */
+
+.form-container {
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Sombra leve para a direita */
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+
+/* form header */
+
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 45px;
+}
+
+.form-header p {
+  color: #673ab7;
+  border-bottom: 2px solid #673ab7;
+  width: 25%;
+  text-align: center;
+  margin: 0% auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form-body {
+  padding: 30px;
+}
+
+.form-title {
+  margin-bottom: 15px;
+}
+
+.form-body p {
+  margin-bottom: 20px;
+}
+
+.required-field {
+  color: #d80835;
+  margin-left: 5px;
+}
+
+.box-input {
+  margin-bottom: 35px;
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.box-input p {
+  margin-bottom: 15px;
+}
+
+.btn_submit {
+  background-color: #673ab7;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.btn_submit:hover {
+  background-color: #fff;
+  border-color: #673ab7;
+  color: #673ab7;
+}
