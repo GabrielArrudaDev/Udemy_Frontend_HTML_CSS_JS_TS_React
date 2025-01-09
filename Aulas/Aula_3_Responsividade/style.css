@@ -1,0 +1,31 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: blue;
+  font-size: 40px;
+}
+
+h4 {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h2 {
+    color: red;
+    font-size: 25px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  h4 {
+    display: block;
+    font-size: 50px;
+  }
+}
