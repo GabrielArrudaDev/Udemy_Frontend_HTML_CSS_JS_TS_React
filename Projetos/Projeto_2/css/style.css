@@ -477,3 +477,13 @@ footer {
     font-size: 10px;
   }
 }
+
+@media (max-width: 345px) {
+  .navbar-items {
+    font-size: 8px;
+  }
+
+  .navbar-items a {
+    padding: 15px 14px;
+  }
+}
