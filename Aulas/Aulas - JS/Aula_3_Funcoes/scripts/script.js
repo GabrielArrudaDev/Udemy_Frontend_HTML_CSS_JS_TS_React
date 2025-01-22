@@ -1,12 +1,12 @@
 // 1 - criando uma função
 function minhaFuncao() {
-  console.log("Testando!");
+  console.log('Testando!');
 }
 
 minhaFuncao();
 
 const minhaFuncaoEmVariável = function () {
-  console.log("Função em variável!");
+  console.log('Função em variável!');
 };
 
 minhaFuncaoEmVariável();
@@ -15,7 +15,7 @@ function funcaoComParametro(txt) {
   console.log(`Imprimindo: ${txt}`);
 }
 
-funcaoComParametro("Opa");
+funcaoComParametro('Opa');
 
 // 2 - return
 const a = 10;
@@ -66,18 +66,18 @@ console.log(m);
 
 // 5 - arrow function
 const testeArrow = () => {
-  console.log("Esta é uma arrow function");
+  console.log('Esta é uma arrow function');
 };
 
 testeArrow();
 
 const parOuImpar = (n) => {
   if (n % 2 === 0) {
-    console.log("Par");
+    console.log('Par');
     return;
   }
 
-  console.log("Impar");
+  console.log('Impar');
 };
 
 parOuImpar(5);
@@ -93,7 +93,7 @@ const raizQuadrada2 = (n) => n * n;
 console.log(raizQuadrada(4));
 console.log(raizQuadrada2(4));
 
-const helloWorld = () => console.log("Hello!");
+const helloWorld = () => console.log('Hello!');
 
 helloWorld();
 
@@ -111,7 +111,7 @@ console.log(multiplication(4));
 
 const greeting = (name) => {
   if (!name) {
-    console.log("Olá!");
+    console.log('Olá!');
     return;
   }
 
@@ -119,16 +119,16 @@ const greeting = (name) => {
 };
 
 greeting();
-greeting("Matheus");
+greeting('Gabriel');
 
 // 8 - valor default
-const customGreeting = (name, greet = "Olá") => {
+const customGreeting = (name, greet = 'Olá') => {
   return `${greet}, ${name}!`;
 };
 
-console.log(customGreeting("Matheus"));
+console.log(customGreeting('Gabriel'));
 
-console.log(customGreeting("João", "Bom dia"));
+console.log(customGreeting('João', 'Bom dia'));
 
 const repeatText = (text, repeat = 2) => {
   for (let i = 0; i < repeat; i++) {
@@ -136,12 +136,12 @@ const repeatText = (text, repeat = 2) => {
   }
 };
 
-repeatText("Testando");
-repeatText("Agora repete 5 vezes", 5);
+repeatText('Testando');
+repeatText('Agora repete 5 vezes', 5);
 
 // 9 - closure
 function someFunction() {
-  let txt = "Alguma coisa";
+  let txt = 'Alguma coisa';
 
   function display() {
     console.log(txt);
@@ -172,7 +172,7 @@ console.log(c2(10));
 // 11 - recursion
 const untilTen = (n, m) => {
   if (n < 10) {
-    console.log("A função parou de executar!");
+    console.log('A função parou de executar!');
   } else {
     const x = n - m;
 

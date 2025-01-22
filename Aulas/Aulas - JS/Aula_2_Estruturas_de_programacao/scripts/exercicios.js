@@ -17,9 +17,9 @@ Crie um programa que peça dois números e uma operação matemática (+, -, *, 
 Use a estrutura switch para realizar a operação e exibir o resultado no console.
  */
 
-// const numero1 = prompt('Digite o primeiro numero');
-// const numero2 = prompt('Digite o primeiro numero');
-// const operador = prompt('Digite o operador');
+// let numero1 = parseFloat(prompt("Digite o primeiro número:"));
+// let numero2 = parseFloat(prompt("Digite o segundo número:"));
+// let operacao = prompt("Digite a operação (+, -, *, /):");
 
 // switch (operador) {
 //   case '-':
