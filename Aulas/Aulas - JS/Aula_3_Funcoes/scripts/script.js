@@ -15,7 +15,8 @@ function funcaoComParametro(txt) {
   console.log(`Imprimindo: ${txt}`);
 }
 
-funcaoComParametro('Opa');
+funcaoComParametro('alguma coisa');
+funcaoComParametro('alguma coisa 2');
 
 // 2 - return
 const a = 10;
@@ -53,6 +54,12 @@ function escopoAninhado() {
 
   if (true) {
     let m = 30;
+
+    if (true) {
+      let m = 40;
+
+      console.log(m);
+    }
 
     console.log(m);
   }
