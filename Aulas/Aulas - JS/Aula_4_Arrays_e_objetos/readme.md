@@ -1,10 +1,40 @@
 ---
-
-# README - Explicação do Código
+# Explicação do Código
 
 Este arquivo contém um código JavaScript com exemplos de como trabalhar com arrays, objetos, e outros conceitos da linguagem. Cada seção é explicada com comentários para ajudar na compreensão.
 
 ---
+
+## Sumário
+
+1. [Criação e Tipos de Arrays](#1---arrays)
+2. [Manipulação de Arrays](#2---mais-sobre-arrays)
+3. [Propriedades de Arrays e Strings](#3---propriedades)
+4. [Métodos de Arrays e Strings](#4---métodos)
+5. [Objetos: Definição e Acesso](#5---objetos)
+6. [Adicionando e Removendo Propriedades de Objetos](#6---criando-e-deletando-propriedades)
+7. [Objetos e a Função `Object.assign`](#7---mais-sobre-objetos)
+8. [Métodos de Objetos: `Object.keys`, `Object.entries`](#8---conhecendo-melhor-os-objetos)
+9. [Mutação de Objetos](#9---mutação)
+10. [Loops em Arrays](#10---loop-em-array)
+11. [Métodos `push` e `pop`](#11---push-e-pop)
+12. [Métodos `shift` e `unshift`](#12---shift-e-unshift)
+13. [Métodos `indexOf` e `lastIndexOf`](#13---indexof-e-lastindexof)
+14. [Método `slice`](#14---slice)
+15. [Método `forEach`](#15---foreach)
+16. [Método `includes`](#16---includes)
+17. [Método `reverse`](#17---reverse)
+18. [Método `trim`](#18---trim)
+19. [Método `padStart` e `padEnd`](#19---padstart)
+20. [Método `split`](#20---split)
+21. [Método `join`](#21---join)
+22. [Método `repeat`](#22---repeat)
+23. [Operador Rest (`...`)](#23---rest-operator)
+24. [Laços `for...of`](#24---forof)
+25. [Destructuring de Objetos](#25---destructuring-objetos)
+26. [Destructuring de Arrays](#26---destructuring-me-arrays)
+27. [JSON](#27---json)
+28. [Conversão entre JSON e Objeto](#28---json-para-objeto-e-objeto-para-json)
 
 ## 1. Arrays
 
