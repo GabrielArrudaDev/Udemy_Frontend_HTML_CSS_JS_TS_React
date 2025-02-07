@@ -1,5 +1,3 @@
-Aqui está um exemplo de um README com comentários explicando o que cada parte do código faz:
-
 ---
 
 # README - Explicação do Código
