@@ -189,7 +189,7 @@ console.log(boeing[asas]);
 
 console.log(Aviao.prototype[asas]);
 
-// 13 - getter e setter
+// 13 - getter e setter 
 class Post {
   constructor(titulo, descricao, tags) {
     this.titulo = titulo;
